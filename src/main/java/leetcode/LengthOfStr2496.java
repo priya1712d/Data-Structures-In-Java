@@ -1,10 +1,7 @@
 package leetcode;
 
-import java.util.Arrays;
-import java.util.Collections;
-
 public class LengthOfStr2496 {
-
+//Kathrin Stahlenburg
     public static void main(String[] args) {
 
 //        String[] strings = {"1","01","001","0001"};
