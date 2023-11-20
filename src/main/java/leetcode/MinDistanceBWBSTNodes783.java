@@ -4,7 +4,7 @@ import practice.TreeNode;
 
 import java.util.ArrayList;
 
-public class MinDistanceBWBSTNodes {
+public class MinDistanceBWBSTNodes783 {
 
 
     public static void main(String[] args) {
