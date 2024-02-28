@@ -10,8 +10,5 @@
         <module name="Data-Structures-In-Java" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Data-Structures-In-Java" target="11" />
-    </bytecodeTargetLevel>
   </component>
 </project>
