@@ -16,15 +16,13 @@ public class CalHeight {
         if(root ==null){
             return 0;
         }
-        if(root.getLeft() == null && root.getRight() == null){
-            return 1;
-        }
-        if(root.getLeft() !=null && root.getRight() != null){
-            return 1 + calHeight(root.getRight());
-        }
-        if(root.getLeft() !=null){
-            return 1 + calHeight(root.getLeft());
-        }
-        return 1 + calHeight(root.getRight());
+        int calLeft = 0;
+        int calRight = 0;
+        if(root.getLeft()!=null)
+            calLeft = calHeight(root.getLeft());
+        if(root.getRight()!=null)
+            calRight = calHeight(root.getRight());
+
+        return 1 + Math.max(calLeft, calRight);
     }
 }
